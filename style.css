@@ -64,3 +64,72 @@ hr {
 .references {
     padding-top: 800px;
 }
+
+@media (min-width: 768px){
+    main {
+        width: 70%;
+        background-color: #F6D7A7;
+        padding-left: 10px;
+        border: 3px solid #000000;
+    }
+    aside {
+        width: 25%;
+        min-width: 200px;
+        margin-left: 1em;
+        background-color: #C8E3D4;
+        align-items: center;
+        padding-left: 5px;
+        border: 3px solid #000000;
+    }
+    
+    .cv{
+        display: flex;
+    }
+    
+    .main-pic {
+        padding: 20px 20px 20px 40px;
+        width: 300px;
+        height: 275px;
+    }
+    
+    .img {
+        height: 300px;
+    }
+    
+    .header > .CV {
+       padding-left: 500px;
+    }
+    
+    .info > .head {
+        padding: 20px 20px 20px 20px;
+        display: grid;
+        font-size: 20px;
+        height: 295px;
+    }
+    
+    .name {
+       font-size: 40px;
+    }
+    
+    .links{
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    
+    .head {
+        border: 3px solid #00000;
+    }
+    
+    hr {
+        border-top: 10px solid #000000;
+    }
+    
+    .Date {
+        padding-top: 20px;
+        padding-left: 600px;
+    }
+    
+    .references {
+        padding-top: 800px;
+    }
+}
