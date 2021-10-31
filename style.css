@@ -1,0 +1,40 @@
+main {
+    width: 70%;
+    background-color: #F6D7A7;
+}
+aside {
+    width: 25%;
+    min-width: 200px;
+    margin-left: 1em;
+    background-color: #C8E3D4;
+    align-items: center;
+}
+
+.cv{
+    display: flex;
+}
+
+.main-pic {
+    padding: 20px 20px 20px 40px;
+    width: 300px;
+    height: 275px;
+}
+
+.header > .CV {
+   padding-left: 500px;
+}
+
+.info > .head {
+    padding: 20px 20px 20px 20px;
+    display: grid;
+    font-size: 20px;
+    height: 295px;
+}
+
+.name {
+   font-size: 40px;
+}
+
+.links{
+    padding-top: 20px;
+}
