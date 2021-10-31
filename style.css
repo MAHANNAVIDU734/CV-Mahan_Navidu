@@ -1,6 +1,8 @@
 main {
     width: 70%;
     background-color: #F6D7A7;
+    padding-left: 10px;
+    border: 3px solid #000000;
 }
 aside {
     width: 25%;
@@ -8,6 +10,8 @@ aside {
     margin-left: 1em;
     background-color: #C8E3D4;
     align-items: center;
+    padding-left: 5px;
+    border: 3px solid #000000;
 }
 
 .cv{
@@ -18,6 +22,10 @@ aside {
     padding: 20px 20px 20px 40px;
     width: 300px;
     height: 275px;
+}
+
+.img {
+    height: 300px;
 }
 
 .header > .CV {
@@ -37,4 +45,22 @@ aside {
 
 .links{
     padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.head {
+    border: 3px solid #00000;
+}
+
+hr {
+    border-top: 10px solid #000000;
+}
+
+.Date {
+    padding-top: 20px;
+    padding-left: 600px;
+}
+
+.references {
+    padding-top: 800px;
 }
