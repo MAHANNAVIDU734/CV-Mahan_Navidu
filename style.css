@@ -1,25 +1,26 @@
 main {
     width: 70%;
     background-color: #F6D7A7;
-    padding-left: 10px;
+    padding-left: 2px;
     border: 3px solid #000000;
 }
+
 aside {
     width: 25%;
     min-width: 200px;
     margin-left: 1em;
     background-color: #C8E3D4;
     align-items: center;
-    padding-left: 5px;
+    padding-left: 1px;
     border: 3px solid #000000;
 }
 
-.cv{
+.cv {
     display: flex;
 }
 
 .main-pic {
-    padding: 20px 20px 20px 40px;
+    padding: 5px 50px 5px 2.5px;
     width: 300px;
     height: 275px;
 }
@@ -28,11 +29,11 @@ aside {
     height: 300px;
 }
 
-.header > .CV {
-   padding-left: 500px;
+.header>.CV {
+    padding-left: 100%;
 }
 
-.info > .head {
+.info>.head {
     padding: 20px 20px 20px 20px;
     display: grid;
     font-size: 20px;
@@ -40,10 +41,10 @@ aside {
 }
 
 .name {
-   font-size: 40px;
+    font-size: 40px;
 }
 
-.links{
+.links {
     padding-top: 20px;
     padding-bottom: 40px;
 }
@@ -65,71 +66,105 @@ hr {
     padding-top: 800px;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
+    .header>.CV {
+        width: 100%;
+        padding-left: 300px;
+    }
     main {
-        width: 70%;
-        background-color: #F6D7A7;
-        padding-left: 10px;
-        border: 3px solid #000000;
+        width: 75%;
+        padding-left: 4px;
     }
     aside {
         width: 25%;
-        min-width: 200px;
-        margin-left: 1em;
-        background-color: #C8E3D4;
-        align-items: center;
-        padding-left: 5px;
-        border: 3px solid #000000;
     }
-    
-    .cv{
-        display: flex;
+}
+
+@media (min-width: 360px) and (max-width:640px){
+    main {
+        width: 175%;
     }
-    
-    .main-pic {
-        padding: 20px 20px 20px 40px;
-        width: 300px;
-        height: 275px;
+    aside {
+        padding: 3px;
+        width: 125%;
     }
-    
-    .img {
-        height: 300px;
-    }
-    
-    .header > .CV {
-       padding-left: 500px;
-    }
-    
     .info > .head {
-        padding: 20px 20px 20px 20px;
+        padding-bottom: 500px;
         display: grid;
         font-size: 20px;
         height: 295px;
     }
-    
-    .name {
-       font-size: 40px;
-    }
-    
-    .links{
-        padding-top: 20px;
-        padding-bottom: 40px;
-    }
-    
-    .head {
-        border: 3px solid #00000;
-    }
-    
-    hr {
-        border-top: 10px solid #000000;
-    }
-    
     .Date {
-        padding-top: 20px;
-        padding-left: 600px;
+        padding-left: 50px;
     }
-    
-    .references {
-        padding-top: 800px;
+    .main-pic {
+        width: 250px;
+        height: 195px;
+    }
+    .header > .CV {
+        padding-left: 70px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px){
+    .main-pic {
+        width: 250px;
+        height: 250px;
+    }
+    .Date {
+        padding-left: 50px;
+    }
+    link{
+        padding: 50px 50px 50px 50px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 568px){
+    main {
+        width: 175%;
+    }
+    aside {
+        width: 120%;
+    }
+    .Date {
+        padding-left: 50px;
+    }
+    .info > .head {
+        padding-bottom: 500px;
+        display: grid;
+        font-size: 20px;
+        height: 295px;
+    }
+    .main-pic {
+        width: 250px;
+        height: 195px;
+    }
+    .header > .CV {
+        padding-left: 30px;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 653px){
+    main {
+        width: 175%;
+    }
+    aside {
+        width: 120%;
+    }
+    .Date {
+        padding-left: 50px;
+    }
+    .info > .head {
+        padding-bottom: 500px;
+        display: grid;
+        font-size: 20px;
+        height: 295px;
+    }
+    .main-pic {
+        width: 250px;
+        height: 195px;
+    }
+    .header > .CV {
+        padding-left: 8px;
     }
 }
