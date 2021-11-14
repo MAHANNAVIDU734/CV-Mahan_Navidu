@@ -66,19 +66,7 @@ hr {
     padding-top: 800px;
 }
 
-@media (min-width: 768px) {
-    .header>.CV {
-        width: 100%;
-        padding-left: 300px;
-    }
-    main {
-        width: 75%;
-        padding-left: 4px;
-    }
-    aside {
-        width: 25%;
-    }
-}
+
 
 @media (min-width: 360px) and (max-width:640px){
     main {
