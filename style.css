@@ -66,9 +66,7 @@ hr {
     padding-top: 800px;
 }
 
-
-
-@media (min-width: 360px) and (max-width:640px){
+@media (min-width: 360px) and (max-width:640px) {
     main {
         width: 175%;
     }
@@ -76,7 +74,7 @@ hr {
         padding: 3px;
         width: 125%;
     }
-    .info > .head {
+    .info>.head {
         padding-bottom: 500px;
         display: grid;
         font-size: 20px;
@@ -89,12 +87,12 @@ hr {
         width: 250px;
         height: 195px;
     }
-    .header > .CV {
+    .header>.CV {
         padding-left: 70px;
     }
 }
 
-@media (min-width: 768px) and (max-width:1024px){
+@media (min-width: 768px) and (max-width:1024px) {
     .main-pic {
         width: 250px;
         height: 250px;
@@ -102,12 +100,12 @@ hr {
     .Date {
         padding-left: 50px;
     }
-    link{
+    link {
         padding: 50px 50px 50px 50px;
     }
 }
 
-@media (min-width: 320px) and (max-width: 568px){
+@media (min-width: 320px) and (max-width: 568px) {
     main {
         width: 175%;
     }
@@ -117,7 +115,7 @@ hr {
     .Date {
         padding-left: 50px;
     }
-    .info > .head {
+    .info>.head {
         padding-bottom: 500px;
         display: grid;
         font-size: 20px;
@@ -127,12 +125,12 @@ hr {
         width: 250px;
         height: 195px;
     }
-    .header > .CV {
+    .header>.CV {
         padding-left: 30px;
     }
 }
 
-@media (min-width: 280px) and (max-width: 653px){
+@media (min-width: 280px) and (max-width: 653px) {
     main {
         width: 175%;
     }
@@ -142,7 +140,7 @@ hr {
     .Date {
         padding-left: 50px;
     }
-    .info > .head {
+    .info>.head {
         padding-bottom: 500px;
         display: grid;
         font-size: 20px;
@@ -152,7 +150,7 @@ hr {
         width: 250px;
         height: 195px;
     }
-    .header > .CV {
+    .header>.CV {
         padding-left: 8px;
     }
 }
