@@ -92,7 +92,7 @@ hr {
     }
 }
 
-@media (min-width: 768px) and (max-width:1024px) {
+@media (min-width: 768px) {
     .main-pic {
         width: 250px;
         height: 250px;
@@ -102,6 +102,9 @@ hr {
     }
     link {
         padding: 50px 50px 50px 50px;
+    }
+    .header>.CV {
+        padding-left: 100px;
     }
 }
 
@@ -152,5 +155,11 @@ hr {
     }
     .header>.CV {
         padding-left: 8px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header>.CV {
+        padding-left: 500px;
     }
 }
